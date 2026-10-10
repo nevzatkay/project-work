@@ -1,47 +1,33 @@
 ---
 name: Nevzat Kayıkçı
-neptun: "JWM27Z"
-id: "2026-SD-02"
-github: "https://github.com/nevzatkay/project-work"
+neptun: JWM27Z
+id: 2026-SD-02
+github: https://github.com/nevzatkay/project-work
 ---
 # Investigation of Emergent Behavioral Patterns in a Multi-Agent Simulation Based on Simple Rules
 
-
-This project investigates how complex collective behavior can emerge from simple local interactions between autonomous agents. A two-dimensional simulation will be developed in which agents follow separation, alignment and cohesion rules without centralized control. By varying rule weights, population size, neighborhood radius and noise, the project will examine when collective movement, clustering or fragmented groups appear. Visual observations will be supported by quantitative measurements and repeated experiments with recorded random seeds. The intended outcome is a reproducible simulation and an analysis of how local rules influence global behavioral patterns.
-
+This project develops a configurable two-dimensional multi-agent simulation to investigate how collective behavioral patterns emerge from simple local interactions without centralized control. The proposed initial model uses separation, alignment and cohesion rules. By varying rule weights, agent density, interaction radius and random noise, the study will examine collective movement, clustering and group fragmentation. Repeated runs with recorded random seeds and quantitative measurements will support reproducible comparisons of rule combinations and parameter settings.
 
 ## Objectives
-- **Primary objective:** Build a configurable multi-agent simulation and investigate the relationship between simple local rules and emergent collective behavior.
-- **Target users / stakeholders:** The student, thesis supervisor, examiners and researchers or students interested in agent-based modeling.
-- **Research questions:**
-  - How do separation, alignment and cohesion weights affect collective movement and group formation?
-  - How do agent density, interaction radius and random noise influence the stability of these patterns?
-  - Which patterns disappear or change when individual rules are disabled?
-- **Measurable success criteria:**
-  - A working simulation supports configurable populations, rule weights, interaction radius, duration and random seed.
-  - Users can start, pause, resume, reset and inspect the simulation.
-  - Each run exports its configuration and time-series metrics.
-  - A baseline, three single-rule ablations and selected parameter sweeps are evaluated using at least 10 seeds per experimental condition.
-  - Results include polarization, cluster statistics and nearest-neighbor distance, with variability across seeds.
-  - Conclusions distinguish measured outcomes from visual impressions and do not require a particular pattern to appear.
-- **Constraints:** A standard laptop; a two-dimensional bounded environment; simple local rules; no large language models or machine learning training; documented experiment settings and reproducible outputs.
-
+- **Primary objective:** Build a multi-agent simulation and investigate how simple local rules influence emergent collective behavior.
+- **Target users / stakeholders:** Researchers and students studying agent-based modeling and emergence; the thesis supervisor and examiners.
+- **Measurable success criteria:** The application supports configurable rules and simulation parameters, visualizes agent movement, saves run configurations and metric time series, and reports comparisons of a baseline, individual rule ablations and selected parameter settings across repeated seeded runs. Measurements include polarization, cluster statistics and nearest-neighbor distance, with variability and limitations reported.
+- **Constraints:** A two-dimensional simulated environment; local interactions; execution on a standard laptop; reproducible random initialization; explicit model assumptions and numerical edge-case handling. The initial model and detailed experimental settings remain subject to the assigned brief and supervisor agreement.
 
 ## Scope
-### In scope
-- A continuous two-dimensional environment with periodic boundaries.
-- Agents with position and velocity, observing only neighbors within an interaction radius.
-- Separation, alignment, cohesion and optional random directional noise.
-- Configurable parameters and real-time visualization.
-- Simulation controls and configuration validation.
-- Batch experiments, fixed seeds, metric calculation and CSV/JSON export.
-- Baseline comparisons, rule ablations and parameter sweeps.
-- Documentation of methods, findings and limitations.
 
+### In scope
+- A two-dimensional environment with periodic boundaries and agents with positions and velocities.
+- Simple local movement rules, initially separation, alignment and cohesion, with optional directional noise.
+- Configurable population, rule weights, interaction radius, run duration and random seed.
+- Real-time visualization and start, pause, resume and reset controls.
+- Recorded configurations and time-series measurements, with CSV/JSON export.
+- Repeated seeded experiments, baseline comparisons, individual rule ablations and selected parameter sweeps.
+- Quantitative analysis of collective movement, clustering and fragmentation, including variability and model limitations.
 
 ### Out of scope
-- Three-dimensional environments and physical robots.
-- Human behavior prediction or validation against real animal populations.
-- Reinforcement learning, neural networks or language-model agents.
-- Distributed execution and large-scale cloud infrastructure.
-- Claims that observed simulation patterns automatically generalize to real systems.
+- Real-animal tracking, camera-based observation and biological validation.
+- Three-dimensional environments, physical robots and physical control systems.
+- Reinforcement learning, neural networks and language-model agents.
+- Distributed or large-scale cloud execution.
+- Claims that simulation outcomes directly predict real human or animal behavior.
