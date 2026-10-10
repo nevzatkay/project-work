@@ -176,3 +176,4 @@ Success means a supported analysis; a particular emergent pattern is not guarant
 - Begin implementation in **Semester 2**.
 
 [Project outline](01-project-outline.md) · [Specification](02-specification.md) · [Repository](https://github.com/nevzatkay/project-work)
+
