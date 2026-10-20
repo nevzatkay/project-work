@@ -9,7 +9,7 @@ Investigation of Emergent Behavioral Patterns in a Multi-Agent Simulation Based 
 
 Author: Nevzat Kayıkçı  
 Neptun: JWM27Z  
-Supervisor: To be confirmed  
+Supervisor: Sari David  
 Project ID: 2026-SD-02  
 
 ---
