@@ -14,12 +14,6 @@ Neptun: JWM27Z
 Supervisor: Sári Dávid  
 Project ID: 2026-SD-02
 
----
-
-<!-- 2xl -->
-[Presented Markdown (PRMD) format](https://prmd.atom-forge.eu/docs)
-
----
 
 ## Specification summary
 
