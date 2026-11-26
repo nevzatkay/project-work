@@ -14,6 +14,8 @@ Neptun: JWM27Z
 Supervisor: Sári Dávid  
 Project ID: 2026-SD-02
 
+---
+
 
 ## Specification summary
 
